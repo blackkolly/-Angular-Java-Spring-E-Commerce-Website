@@ -1,5 +1,6 @@
 package MyArray;
 
+import java.awt.*;
 import java.util.ArrayList;
 
 public class Practise {
@@ -15,7 +16,7 @@ public class Practise {
         return x * y;
     } public static int divideValue(int x,int y) {
         return x / y;
-      */
+
      ArrayList<String> myMonth = new ArrayList<String>();
      int month = 8;
      switch (month){
@@ -39,8 +40,11 @@ public class Practise {
            for(String monthName: myMonth){
                System.out.println(monthName);
            }
-        }
-
+        } */
+     Rectangle myrect = new Rectangle(200,100);
+     myrect.width = 200;
+     myrect.height = 100;
+     System.out.println(myrect.getWidth());
     }
 
 }
